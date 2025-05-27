@@ -68,7 +68,7 @@ int main () {
    
    // fim carta 2 
    
-   // dados primeira carta 
+   // dados primeira carta
 
     printf(" Primeira carta : \n");
     printf(" Estado : %s\n Codigo :%s\n Nome da cidade : %s\n",Estado1, Codigo1, nomecidade1);
