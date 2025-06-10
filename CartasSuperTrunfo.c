@@ -6,17 +6,21 @@
 // Siga os comentários para implementar cada parte do desafio.
 //Teste larissa
 
-#include <stdio.h>
-
 
 int main () {
     
 
      char Estado1[20], Estado2[20], Codigo1[10], Codigo2[10], nomecidade1[20], nomecidade2[20];
-     float area1, area2, PIB1, PIB2; 
+     float area1, area2, PIB1, PIB2, densidade1, densidade2, PP1, PP2;
      int populacao1, populacao2, turistico1, turistico2;
      
+
      // inicio carta 1 
+    
+    printf("*** Vamos jogar super trunfo***\n\n");
+    printf(" Para iniciar o joga, antes e necesserio escolhermos 2 cartas\n\n");
+    printf( " ***Vamos comecar*** \n\n");
+
 
     printf("Incira os dados da primeira carta:\n"); 
     printf("Estado:"); 
@@ -44,7 +48,7 @@ int main () {
 
     // inicio carta 2
 
-    printf("Incira os dados da primeira carta:\n"); 
+    printf("\n\n Incira os dados da Segunda carta:\n"); 
     printf("Estado:"); 
     scanf("%s", Estado2);
      
@@ -68,12 +72,14 @@ int main () {
    
    // fim carta 2 
    
-   // dados primeira carta
+   // dados primeira carta 
 
-    printf(" Primeira carta : \n");
+    printf(" \n\n Primeira carta : \n");
     printf(" Estado : %s\n Codigo :%s\n Nome da cidade : %s\n",Estado1, Codigo1, nomecidade1);
     printf(" Area :%f\n PIB : %f\n",area1, PIB1);
     printf(" Populacao : %d\n Numero de pontos turisticos:%d\n",populacao1, turistico1);
+    printf(" Densidade populacional: %.2f \n", densidade1 = populacao1 / area1);
+    printf(" PIB per capita: %.2f \n\n", PP1 = (float) PIB1/populacao1);
 
    // dados segunda carta 
     
@@ -81,6 +87,8 @@ int main () {
     printf(" Estado : %s\n Codigo :%s\n Nome da cidade : %s\n",Estado2, Codigo2, nomecidade2);
     printf(" Area :%f\n PIB : %f\n",area2, PIB2);
     printf(" Populacao : %d\n Numero de pontos turisticos:%d\n",populacao2, turistico2);
+    printf(" Densidade populacional: %.2f \n", densidade2 = (float) populacao2 / area2);
+    printf(" PIB per capita: %.2f \n", PP2 = (float) PIB2/populacao2);
 
     return 0;
 }
