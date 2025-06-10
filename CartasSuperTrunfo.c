@@ -22,7 +22,7 @@ int main () {
     printf( " ***Vamos comecar*** \n\n");
 
 
-    printf("Incira os dados da primeira carta:\n"); 
+    printf("Incira os dados da primeira carta:\n\n"); 
     printf("Estado:"); 
     scanf("%s", Estado1);
      
@@ -48,7 +48,7 @@ int main () {
 
     // inicio carta 2
 
-    printf("\n\n Incira os dados da Segunda carta:\n"); 
+    printf("\n\n Incira os dados da Segunda carta:\n\n"); 
     printf("Estado:"); 
     scanf("%s", Estado2);
      
